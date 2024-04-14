@@ -1,0 +1,76 @@
+@import "../assets/fonts/fonts.css";
+#app {
+}
+body {
+    margin: 0;
+    font-family: Montserrat,serif;
+}
+
+label {
+    width: 20px;
+    line-height: 32px;
+    position: relative;
+    left: 16px;
+    bottom: 8px;
+    font-size: 16px;
+}
+
+input {
+    appearance: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #000000;
+    transition: 0.2s all linear;
+    position: relative;
+}
+
+input:checked {
+    border: 1px solid #3300FF;
+    background-color: #3300FF;
+}
+
+button:hover,
+button:focus {
+    color: #999;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+
+}
+
+.questionPage_wrapper {
+    width: 61vw;
+    height: 85vh;
+    margin: 7%;
+}
+
+.questionPage_heading {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 58.51px;
+    margin: 0 0 20px 0;
+}
+
+.questionPage_container {
+    box-sizing: border-box;
+    background-color: #F7F7F7;
+    width: 100%;
+    height: 61vh;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.questionPage_question {
+    margin: 0 0 20px 0;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.26px;
+}
+
+.questionPage_fieldset {
+    border: 0;
+}
