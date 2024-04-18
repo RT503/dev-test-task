@@ -1,9 +1,9 @@
 <template>
   <div class="progress_numbers">
-    <div>{{ currentQuestion  }} </div>
-    <div>{{ totalQuestions }}</div>
+    <div>{{ currentQuestion  }}</div>
+    <div>{{ totalQuestions + 1}}</div>
   </div>
-    <progress class="progress_bar" :value="currentQuestion + 1" :max="totalQuestions" ></progress>
+  <progress class="progress_bar" :value="currentQuestion" :max="totalQuestions"></progress>
 
 </template>
 
@@ -14,11 +14,12 @@ export default {
 </script>
 
 <style scoped>
-.progress_numbers{
+.progress_numbers {
   display: flex;
   justify-content: space-between;
 }
-.progress_bar{
+
+.progress_bar {
   width: 100%;
 }
 </style>

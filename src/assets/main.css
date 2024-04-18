@@ -1,9 +1,16 @@
 @import "../assets/fonts/fonts.css";
+
 #app {
 }
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     margin: 0;
-    font-family: Montserrat,serif;
+    font-family: Montserrat, serif;
 }
 
 label {
@@ -30,9 +37,9 @@ input:checked {
     background-color: #3300FF;
 }
 
-button:hover,
-button:focus {
-    color: #999;
+ul {
+    list-style-type: none;
+    padding: 0;
 }
 
 .main {
@@ -45,7 +52,7 @@ button:focus {
 .questionPage_wrapper {
     width: 61vw;
     height: 85vh;
-    margin: 7%;
+    margin-top: 82px;
 }
 
 .questionPage_heading {
@@ -67,7 +74,6 @@ button:focus {
 .questionPage_question {
     margin: 0 0 20px 0;
     font-size: 24px;
-    font-weight: 700;
     line-height: 29.26px;
 }
 
